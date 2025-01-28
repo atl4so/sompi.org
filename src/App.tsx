@@ -11,10 +11,7 @@ function App() {
       <header className="pt-24 pb-16 px-4 text-center relative animate-fade-in">
         <div className="max-w-4xl mx-auto">
           <div className="flex items-center justify-center mb-8">
-            <div className="relative">
-              <div className="absolute inset-0 animate-ping-slow rounded-full bg-blue-500/20"></div>
-              <Code2 className="w-16 h-16 text-blue-400 animate-float relative" />
-            </div>
+            <Code2 className="w-16 h-16 text-blue-400" />
           </div>
           <h1 className="text-5xl md:text-6xl font-bold mb-6 animate-gradient bg-clip-text text-transparent 
                        bg-gradient-to-r from-blue-400 via-purple-400 to-blue-400">
